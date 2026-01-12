@@ -6,8 +6,8 @@ Este projeto foi desenvolvido como parte do meu portfólio de especialização e
 
 ##  Tecnologias Utilizadas
 
-* **Java 17** (Linguagem base)
-* **Spring Boot 3** (Framework principal)
+* **Java 21** (Linguagem base)
+* **Spring Boot 3.5** (Framework principal)
 * **Spring Data JDBC/JPA** (Persistência de dados)
 * **Spring Security** (Autenticação e Autorização)
 * **H2 Database** (Banco de dados em memória para dev)
@@ -37,7 +37,7 @@ Este projeto foi construído seguindo rigorosamente o ciclo **Red-Green-Refactor
 1. Clone o repositório:
    
 `bash`
-`git clone [https://github.com/SEU-USUARIO/cash-card-service.git](https://github.com/SEU-USUARIO/cash-card-service.git)`
+`git clone [https://github.com/cgmarquess/cash-card-service.git](https://github.com/cgmarquess/cash-card-service.git)`
 
 2. Entre na pasta
 
