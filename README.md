@@ -1,0 +1,58 @@
+# Cash Card Service API 
+
+Uma API RESTful segura e robusta desenvolvida para o gerenciamento de cartões de débito digitais e controle de mesadas familiares.
+
+Este projeto foi desenvolvido como parte do meu portfólio de especialização em **Spring Boot**, focando em boas práticas de design de API, segurança e testes automatizados.
+
+##  Tecnologias Utilizadas
+
+* **Java 17** (Linguagem base)
+* **Spring Boot 3** (Framework principal)
+* **Spring Data JDBC/JPA** (Persistência de dados)
+* **Spring Security** (Autenticação e Autorização)
+* **H2 Database** (Banco de dados em memória para dev)
+* **JUnit 5** (Testes Unitários e de Integração)
+* **Gradle (Groovy)** (Gerenciamento de dependências)
+
+##  Principais Funcionalidades
+
+* **CRUD Completo:** Criação, leitura, atualização e exclusão de cartões (Cash Cards).
+* **Segurança (AuthN/AuthZ):**
+    * Autenticação via Basic Auth.
+    * Autorização baseada em "Ownership" (Usuários só veem/editam seus próprios cartões).
+    * Proteção de rotas sensíveis.
+* **Paginação e Ordenação:** Endpoints otimizados para listar grandes volumes de dados.
+* **Tratamento de Erros:** Respostas HTTP adequadas e amigáveis (404, 403, 401).
+
+##  Metodologia: TDD (Test-Driven Development)
+
+Este projeto foi construído seguindo rigorosamente o ciclo **Red-Green-Refactor**.
+* **Testes Primeiro:** Cada funcionalidade começou com um teste de falha (Red).
+* **Implementação:** O código foi escrito para passar no teste (Green).
+* **Refatoração:** O código foi limpo e otimizado mantendo os testes passando (Refactor).
+* **Cobertura:** Testes abrangentes para Controllers (Integração) e Camada de Domínio (Unitários).
+
+##  Como rodar o projeto
+
+1. Clone o repositório:
+   
+`bash`
+`git clone [https://github.com/SEU-USUARIO/cash-card-service.git](https://github.com/SEU-USUARIO/cash-card-service.git)`
+
+2. Entre na pasta
+
+`bash` `cd cash-card-service`
+
+3. Execute com Gradle
+
+-Para rodar os testes (TDD):
+
+`bash`
+`./gradlew test`
+
+-Para subir a aplicação (API):
+
+`bash`
+`./gradlew bootRun`
+
+Desenvolvido por [Gabriel Marques] - [[LinkedIn](https://www.linkedin.com/in/cgmarquess/)]
