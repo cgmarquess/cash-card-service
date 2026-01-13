@@ -41,11 +41,6 @@ This project strictly followed the **Red-Green-Refactor** cycle:
 * **Coverage:** Comprehensive testing for Controllers (Integration) and Domain Layer (Unit).
 
 ## How to Run
-
-### Prerequisites
-* Java JDK 21 installed.
-* Docker (optional, for containerization).
-
 ### Steps
 
 ## Como rodar o projeto
