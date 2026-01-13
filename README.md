@@ -1,20 +1,21 @@
-# Cash Card Service API 
+# Cash Card Service API
 
 Uma API RESTful segura e robusta desenvolvida para o gerenciamento de cartões de débito digitais e controle de mesadas familiares.
 
 Este projeto foi desenvolvido como parte do meu portfólio de especialização em **Spring Boot**, focando em boas práticas de design de API, segurança e testes automatizados.
 
-##  Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-* **Java 21** (Linguagem base)
+* **Java 21** (LTS - Linguagem base)
 * **Spring Boot 3.5** (Framework principal)
 * **Spring Data JDBC/JPA** (Persistência de dados)
 * **Spring Security** (Autenticação e Autorização)
 * **H2 Database** (Banco de dados em memória para dev)
 * **JUnit 5** (Testes Unitários e de Integração)
 * **Gradle (Groovy)** (Gerenciamento de dependências)
+* **Docker** (Containerização)
 
-##  Principais Funcionalidades
+## Principais Funcionalidades
 
 * **CRUD Completo:** Criação, leitura, atualização e exclusão de cartões (Cash Cards).
 * **Segurança (AuthN/AuthZ):**
@@ -24,7 +25,7 @@ Este projeto foi desenvolvido como parte do meu portfólio de especialização e
 * **Paginação e Ordenação:** Endpoints otimizados para listar grandes volumes de dados.
 * **Tratamento de Erros:** Respostas HTTP adequadas e amigáveis (404, 403, 401).
 
-##  Metodologia: TDD (Test-Driven Development)
+## Metodologia: TDD (Test-Driven Development)
 
 Este projeto foi construído seguindo rigorosamente o ciclo **Red-Green-Refactor**.
 * **Testes Primeiro:** Cada funcionalidade começou com um teste de falha (Red).
@@ -32,7 +33,7 @@ Este projeto foi construído seguindo rigorosamente o ciclo **Red-Green-Refactor
 * **Refatoração:** O código foi limpo e otimizado mantendo os testes passando (Refactor).
 * **Cobertura:** Testes abrangentes para Controllers (Integração) e Camada de Domínio (Unitários).
 
-##  Como rodar o projeto
+## Como rodar o projeto
 
 1. Clone o repositório:
    
