@@ -75,4 +75,4 @@ docker build -t cash-card-api .
 ```bash
 docker run -p 8080:8080 cash-card-api
 ```
-Developed by [Gabriel Marques] - [[LinkedIn]([https://www.linkedin.com/in/cgmarquess/](https://www.linkedin.com/in/cgmarquess/?locale=en_US))]
+Developed by [Gabriel Marques] - [[LinkedIn](https://www.linkedin.com/in/cgmarquess/?locale=en_US)]
