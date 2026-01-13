@@ -1,3 +1,10 @@
+<div align="center">
+   
+  [![Português](https://img.shields.io/badge/Português-green)](README-pt-br.md)
+  [![English](https://img.shields.io/badge/English-blue)](README.md)
+  
+</div>
+
 # Cash Card Service API
 
 Uma API RESTful segura e robusta desenvolvida para o gerenciamento de cartões de débito digitais e controle de mesadas familiares.
