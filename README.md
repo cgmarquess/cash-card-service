@@ -5,13 +5,13 @@
   
 </div>
 
-# Cash Card Service API 💳
+# Cash Card Service API
 
 A robust and secure RESTful API designed for managing digital debit cards and family allowances.
 
 This project was developed as part of my **Spring Boot** specialization portfolio, focusing on API design best practices, security, and automated testing.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 * **Java 21** (Core Language)
 * **Spring Boot 3.5** (Main Framework)
@@ -22,7 +22,7 @@ This project was developed as part of my **Spring Boot** specialization portfoli
 * **Gradle (Groovy)** (Dependency Management)
 * **Docker** (Containerization)
 
-## ✨ Key Features
+## Key Features
 
 * **Full CRUD:** Create, Read, Update, and Delete operations for Cash Cards.
 * **Security (AuthN/AuthZ):**
@@ -32,7 +32,7 @@ This project was developed as part of my **Spring Boot** specialization portfoli
 * **Pagination & Sorting:** Optimized endpoints for handling large datasets.
 * **Error Handling:** User-friendly and compliant HTTP error responses (404, 403, 401).
 
-## 🧪 Methodology: TDD (Test-Driven Development)
+## Methodology: TDD (Test-Driven Development)
 
 This project strictly followed the **Red-Green-Refactor** cycle:
 * **Red:** Every feature started with a failing test.
@@ -40,7 +40,7 @@ This project strictly followed the **Red-Green-Refactor** cycle:
 * **Refactor:** Code was cleaned and optimized while keeping tests green.
 * **Coverage:** Comprehensive testing for Controllers (Integration) and Domain Layer (Unit).
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 * Java JDK 21 installed.
