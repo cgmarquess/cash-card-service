@@ -34,34 +34,30 @@ Este projeto foi construído seguindo rigorosamente o ciclo **Red-Green-Refactor
 * **Cobertura:** Testes abrangentes para Controllers (Integração) e Camada de Domínio (Unitários).
 
 ## Como rodar o projeto
-
-```markdown
 1. Clone o repositório:
-
-bash git clone https://github.com/cgmarquess/cash-card-service.git
-
-2. Entre na pasta
-
-bash cd cash-card-service
-
-3. Execute com Gradle
-
--Para rodar os testes (TDD):
-bash ./gradlew test
-
--Para subir a aplicação (API):
-bash ./gradlew bootRun
+```bash
+git clone https://github.com/cgmarquess/cash-card-service.git
 ```
-
-## Como rodar com Docker
-
-```markdown
+2. Entre na pasta
+```bash
+cd cash-card-service
+```
+3. Execute com Gradle
+-Para rodar os testes (TDD):
+```bash
+./gradlew test
+```
+-Para subir a aplicação (API):
+```bash
+./gradlew bootRun
+```
+### Como rodar com Docker
 1. Gere a imagem Docker:
-
-bash docker build -t cash-card-api . 
-
+```bash
+docker build -t cash-card-api . 
+```
 2. Execute o container:
-
-bash docker run -p 8080:8080 cash-card-api
+```bash
+docker run -p 8080:8080 cash-card-api
 ```
 Desenvolvido por [Gabriel Marques] - [[LinkedIn](https://www.linkedin.com/in/cgmarquess/)]
