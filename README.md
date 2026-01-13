@@ -41,9 +41,6 @@ This project strictly followed the **Red-Green-Refactor** cycle:
 * **Coverage:** Comprehensive testing for Controllers (Integration) and Domain Layer (Unit).
 
 ## How to Run
-### Steps
-
-## Como rodar o projeto
 1. Clone the repository:
 ```bash
 git clone https://github.com/cgmarquess/cash-card-service.git
