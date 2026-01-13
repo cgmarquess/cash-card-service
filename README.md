@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como parte do meu portfólio de especialização e
 
 ## Tecnologias Utilizadas
 
-* **Java 21** (LTS - Linguagem base)
+* **Java 21** (Linguagem base)
 * **Spring Boot 3.5** (Framework principal)
 * **Spring Data JDBC/JPA** (Persistência de dados)
 * **Spring Security** (Autenticação e Autorização)
